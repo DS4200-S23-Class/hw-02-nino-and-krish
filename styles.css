@@ -6,19 +6,13 @@ body {
     font-family: Arial;
   } 
   
-  h1,h2 {
+  h1 {
     text-align: center;
   }
-  
-  .container {
-    border: 1px solid black;
+  h2 {
+    text-align: left;
   }
-
   
-  /**Give the element with id "p1" dark green font.*/
-  #p1 {
-    color: darkgreen;
-  }
   
   /**Make your rectangle any color you want except for black or white.*/
   .rectangle {
@@ -28,9 +22,25 @@ body {
   .header {
     background-color: lightskyblue;
   }
-  
-    .table {
-        margin-left: auto;
-        margin-right: auto;
-    }
+
+.table {
+margin-left: auto;
+margin-right: auto;
+}
+
+.container {
+  display: flex;
+}
+.column {
+  flex: 1;
+  text-align: center;
+}
+.column img {
+  display: block;
+  margin: 0 auto;
+}
+.column p {
+  text-align: left;
+  color: blueviolet;
+}
 
