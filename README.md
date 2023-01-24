@@ -1,7 +1,7 @@
 # hw-02
 hw-02 - Static Webpage
 
-Link to GitHub Pages: `[click here](https://ds4200-s23-class.github.io/hw-02-nino-and-krish/)`
+Link to GitHub Pages: [`[click here](https://ds4200-s23-class.github.io/hw-02-nino-and-krish/)`](https://ds4200-s23-class.github.io/hw-02-nino-and-krish/)
 
 Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
