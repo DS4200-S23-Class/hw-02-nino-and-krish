@@ -12,6 +12,9 @@ body {
   h2 {
     text-align: left;
   }
+  h3 {
+    text-align: center;
+  }
   
   
   /**Make your rectangle any color you want except for black or white.*/
@@ -44,3 +47,34 @@ margin-right: auto;
   color: blueviolet;
 }
 
+.shape-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.circle-group {
+  fill: blue;
+  opacity: 0.5;
+}
+
+.rectangle-group {
+  fill: blue;
+  stroke: blue;
+  stroke-width: 2px;
+}
+
+.circle-group:hover {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.rectangle-group:hover {
+  fill: red;
+}
+
+@media (min-width: 768px) {
+  .shape-container {
+    justify-content: space-around;
+  }
+}
