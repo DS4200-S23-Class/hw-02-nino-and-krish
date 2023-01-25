@@ -29,6 +29,12 @@ body {
 .table {
 margin-left: auto;
 margin-right: auto;
+width: 90%;
+text-align: center;
+}
+
+td { 
+  border-bottom : 1px solid #ddd;
 }
 
 .container {
@@ -42,7 +48,7 @@ margin-right: auto;
   display: block;
   margin: 0 auto;
 }
-.column p {
+.column, ul{
   text-align: left;
   color: blueviolet;
 }

@@ -11,7 +11,7 @@
     <div id = "data-abstraction">
         <div class="info">
             <h1> Dataset Types</h1>
-            <table class = "table">
+            <table class = "table"> 
                 <tr class = "header">
                     <th>Data</th>
                     <th>Link</th>
@@ -32,26 +32,44 @@
                     <td><a href="data/Google-Web.txt">Google-Web Data</a></td>
                     <td>CSV</td>
                 </tr>
+              </table>
         </div>
         <div class="info">
             <h1> Data Types</h1>
                 <h2>UFO</h2>
                     <ul>
-                        <li>INSERT DATA TYPES </li>
-                        <li>AND ATTRIBUTES</li>
+                        <li>Row: Items </li>
+                        <li>Columns</li>
+                        <ul>
+                          <li>Datetime: Attribute -> Quantitative</li>
+                          <li> City: Atrribute -> Categorical</li>
+                          <li> State: Attribute -> Categorical</li>
+                          <li> Country: Attribute -> Categorical </li>
+                          <li> Shape: Attribute -> Categorical</li>
+                        <li>Duration: Attribute -> Quantitative</li>   
+                 
+                        </ul>
                     </ul>
                
                 <h2>Airports</h2>
-                    <ul>
-                        <li>INSERT DATA TYPES </li>
-                        <li>AND ATTRIBUTES</li>
-                    </ul>
+                <ul>
+                  <li>Row: Items </li>
+                  <li>Columns</li>
+                  <ul>
+                    <li>Airport Name: Attribute -> Quantitative</li>
+                    <li> Longitude: Position </li>
+                    <li> Latitude: Position </li>
+           
+                  </ul>
+              </ul>
                 <h2>Google Web</h2>
-                    <ul>
-                        <li>INSERT DATA TYPES </li>
-                        <li>AND ATTRIBUTES</li>
-                    </ul>
-            
+                <ul>
+                  <li>Row: Items </li>
+                  <li>Columns</li>
+                  <ul>
+                    <li>From Node ID: Link</li>
+                    <li> To Node ID: Link </li>           
+                  </ul>
         </div>
 
     </div>
@@ -60,34 +78,41 @@
         <div class="container">
             <div class="column">
               <img src="img/vis1.png"/>
-              <p>
-                High-level action: INSERT HERE
-                <br>
-                Medium-level action: INSERT HERE
-                <br>
-                Low-level action: INSERT HERE 
-                <br>
-                Target: INSERT HERE
-              </p>
+                High-level action: Consume -> Discover
+                <ul>
+                  <li> The visual provides the ability to discover the target in comparison to the relevant data </li>
+                </ul>
+                Medium-level action: Lookup
+                <ul> 
+                  <li> The target is highlighted and can be easily compared to the data points around it</li>
+                </ul>
+                Low-level action: Query -> Identify
+                <ul>
+                  <li> The relevant data points are hihglihgted in red to distinguish from historical data points</li>
+                </ul> 
+                Target: outlier
+                <ul> 
+                  <li> The highlighted "Last 3 days" is clearly seperated from the hisotrical data trends and can be perceived as outliers </li>
+                </ul>
             </div>
             <div class="column">
               <img src="img/vis2.png"/>
-              <p>
-                High Level Actions: 
-                Analyze temperature data for Seattle and Portland,
-                determine the number of times the daily mean temperature was 20 degrees above average for each city
-                <br>
-                Medium-level action: Collect temperature data for Seattle and Portland,
-                calculate the daily mean temperature for each city,
-                compare the daily mean temperature to the average temperature for each city
-                <br>
-                Low-level action: Access temperature data from a data source,
-                Perform calculations on the temperature data to determine the daily mean temperature,
-                Compare the daily mean temperature to the average temperature using mathematical operations (e.g. subtraction),
-                Keep track of the number of occurrences where the daily mean temperature was 20 degrees above average using a counter variable.
-                <br>
-                Target: INSERT HERE
-              </p>
+                High Level Actions: Consume -> Present 
+                <ul>
+                  <li> The visual is provided to make clear comparisons between the two cities overtime</li>
+                </ul> 
+                Medium-level action: Search -> Browse
+                <ul>
+                  <li>There is no explicit target for the consumer to look at, but there is room for comparison made by the consumer</li>
+                </ul>
+                  Low-level action: Query -> Compare
+                <ul>
+                  <li> The visual was made to comapre temperature abnomralities between Seatlle and Portland over time</li>
+                </ul> 
+                Target: Similarity
+                <ul>
+                  <li> The visual are aligned/standardized in way that makes comparison between the two cities clear and effective </li>
+                </ul>
             </div>
           </div>
 
@@ -123,11 +148,12 @@
 
 </body>
 <footer><h3>Acknowledgements</h3>
-    <div>
+    <div id="ack">
         <ul>
-            <li>INSERT ACKNOWLEDGEMENTS</li>
-            <li>INSERT ACKNOWLEDGEMENTS</li>
-            <li>INSERT ACKNOWLEDGEMENTS</li>
+            <li><a href="https://www.w3schools.com/html/html_table_styling.asp"> W3 HREF TABLE </a> </li>
+            <li><a href="https://www.w3schools.com/html/html_css.asp"> W3 CSS STYLING </a> </li>
+            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> W3 HTML FlEX BOX </a> </li>
+            <li><a href="https://www.w3schools.com/html/html5_svg.asp"> W3 HTML GENERAL</a> </li>
         </ul>
     </div>
 </footer>
